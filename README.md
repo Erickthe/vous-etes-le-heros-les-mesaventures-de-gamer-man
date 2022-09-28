@@ -9,3 +9,7 @@
 #### _Inspiration_: Sans objet 
 
 #### _Palette de couleurs_: [coolors.co](https://coolors.co/ffffff-f7b97c-826251-68c3d4-568ea3)
+
+## Diagramme
+
+![diagramme](ouellette_erick_PS1_582-324MO/ouellette_erick/assets/PS1.drawio.png)
