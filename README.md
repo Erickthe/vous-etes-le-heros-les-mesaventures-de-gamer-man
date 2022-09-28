@@ -12,4 +12,4 @@
 
 ## Diagramme
 
-![diagramme](ouellette_erick_PS1_582-324MO/ouellette_erick/assets/PS1.drawio.png)
+![logo](ouellette_erick_PS1_582-324MO/ouellette_erick/assets/Ps1.drawio.png)
