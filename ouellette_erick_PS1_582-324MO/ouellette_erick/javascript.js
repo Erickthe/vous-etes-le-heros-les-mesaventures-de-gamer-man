@@ -258,6 +258,7 @@ function goToChapter(chapterName) {
     }
 };
 
+goToChapter("debut");
 
 function useCard(){
      card = true;
