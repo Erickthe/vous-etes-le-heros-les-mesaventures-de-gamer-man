@@ -1,6 +1,6 @@
 # vous-etes-le-heros-les-mesaventures-de-gamer-man
 
-![logo](ouellette_erick_PS1_582-324MO/ouellette_erick/assets/gamer.jpg)
+![logo](ouellette_erick_PS1_582-324MO/ouellette_erick/assets/images/gamer.jpg)
 
 #### [Développement Web - Projet vous êtes le héros](https://smnarnold.com/projets/vous-etes-le-heros)
 
@@ -12,4 +12,4 @@
 
 ## Diagramme
 
-![logo](ouellette_erick_PS1_582-324MO/ouellette_erick/assets/Ps1.drawio.png)
+![logo](ouellette_erick_PS1_582-324MO/ouellette_erick/assets/images/Ps1.drawio.png)
