@@ -44,21 +44,21 @@ let chaptersObj = {
             {
                 text: "Prendre la carte",
                 action: "useCard()"
-            }]
+            },
+             {
+                text: "Ne pas la prendre",
+                action: "goToChapter('chemin_choix')"
+             }]
     },
 
     trajet_choix : {
         subtitle : "Choix de déplacement",
-        text : "Il sort de la maison pour aller à l'école en amenant son ordinateur. A-t'il pris sa carte de métro?.",
+        text : "Il sort de la maison pour aller à l'école en amenant son ordinateur. Il prend le bus pour aller ensuite à l'école.",
         img : "assets/images/bus_marche.jpg",
         options: [
              {
-                text: "Oui",
+                text: "Utliser la carte",
                 action: "cardcheck()"
-            },
-             {
-                text: "Non",
-                action:  "goToChapter('chemin_choix')"
             }]
            
     },
@@ -167,7 +167,7 @@ let chaptersObj = {
     jouer : {
         subtitle : "Jouer",
         text : "Il s'installe dans une toilette de l'école et active son ordinateur. Il joue à son jeu et s'amuse beaucoup.",
-        img : "assets/images/bed.jpg",
+        video : "assets/mp4/gamerman.mp4",
         options: [
              {
                 text: "Suspension",
@@ -214,8 +214,8 @@ let chaptersObj = {
 
     dormir: {
         subtitle : "Dormir",
-        text : "Gamer man sacrifie ses envies pour se reposer. Le lendemain, il est prêt à aller à l'école et à réussir son année pour avoir la chance que ses parents lui achète en cadeau la nouvelle carte graphique de Nvidia à 2000 dollars.",
-        img : "assets/images/bed.jpg",
+        text : "Gamer man sacrifie ses envies pour se reposer. Le lendemain, son père lui dit qu'il pourra avoir la rtx 4090.",
+        video : "assets/mp4/jesse.mp4",
         options: [
              {
                 text: "Début",
@@ -242,6 +242,7 @@ function goToChapter(chapterName) {
     console.log(chaptersObj[chapterName]["subtitle"]);
     console.log(chaptersObj[chapterName]["text"]);
     console.log(chaptersObj[chapterName]["img"]);
+    console.log(chaptersObj[chapterName]["video"]);
     document.querySelector(".Titre").innerHTML = chaptersObj[chapterName]["subtitle"];
     document.querySelector(".Texte").innerHTML = chaptersObj[chapterName]["text"];
     document.querySelector(".photo").src = (chaptersObj[chapterName]["img"]);
@@ -258,7 +259,7 @@ function goToChapter(chapterName) {
     }
 };
 
-goToChapter("debut");
+goToChapter("debut"); 
 
 function useCard(){
      card = true;
