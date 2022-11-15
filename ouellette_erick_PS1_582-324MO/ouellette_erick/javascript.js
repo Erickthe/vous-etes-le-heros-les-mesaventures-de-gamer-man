@@ -2,7 +2,8 @@ let chaptersObj = {
     debut : {
         subtitle : "Début",
         text : "Gamer man commence sa première journée de secondaire. Il doit se rendre à l'école pour la première fois par lui-même. Une multitude d'obstacles l'attend dans son chemin. Sera-t'il à la hauteur?",
-        img : "assets/images/bed.jpg", 
+        img : "assets/images/bed.jpg",
+        audio : "assets/mp3/vineboom", 
         options: [
               {
                 text: "Choix de se réveiller",
@@ -14,6 +15,7 @@ let chaptersObj = {
         subtitle : "Choix de se réveiller",
         text : "Il doit se réveiller pour aller à son premier jours d'école, mais il est fatigué car il a joué à des jeux-vidéos jusqu'à minuit la veille. Que fait-il? Aller à l'école ou dormir?",
         img : "assets/images/wake_or_sleep.jpg",
+        audio : "assets/mp3/vineboom",
         options: [
              {
                 text: "dors",
@@ -29,6 +31,7 @@ let chaptersObj = {
         subtitle : "S'endormir",
         text : "Malheureusement, il s'endort et rate sa première journée. Sa mère est fâchée et lui confisque son ordinateur ce qui le plonge dans une dépression.",
         img : "assets/images/game_over.jpg",
+        audio : "assets/mp3/vineboom",
         options: [
              {
                 text: "Début",
@@ -40,6 +43,7 @@ let chaptersObj = {
         subtitle : "Prendre la carte métro",
         text : "Gamer Man a besoin de sa carte métro pour prendre l'autobus. Est-ce qu'il la prend?",
         img : "assets/images/tst-ticket.jpg",
+        audio : "assets/mp3/vineboom",
         options: [
             {
                 text: "Prendre la carte",
@@ -55,6 +59,7 @@ let chaptersObj = {
         subtitle : "Choix de déplacement",
         text : "Il sort de la maison pour aller à l'école en amenant son ordinateur. Il prend le bus pour aller ensuite à l'école.",
         img : "assets/images/bus_marche.jpg",
+        audio : "assets/mp3/vineboom",
         options: [
              {
                 text: "Utliser la carte",
@@ -67,6 +72,7 @@ let chaptersObj = {
         subtitle : "Choix du chemin",
         text : "Gamer man connait le chemin de son école secondaire. Mais il a entendu à propos d'un raccourci qui lui sauverait beaucoup de temps afin qu'il joue avant son cours. Que choisit-t'il?",
         img : "assets/images/choix_trajets.jpg",
+        audio : "assets/mp3/vineboom",
         options: [
             {
                 text: "Choix de l'approche face à l'ours",
@@ -83,6 +89,7 @@ let chaptersObj = {
         subtitle : "Choix de l'approche face à l'ours",
         text : "Il choisit le raccourci qui lui mène dans une forêt. Tout va bien jusqu'à ce qu'un ours apparait. L'ours a un grand appétit. Gamer man a deux options: lancer son ordinateur sur l'ours pour l'effrayer ou jouer le mort.",
         img : "assets/images/bed.jpg",
+        audio : "assets/mp3/vineboom",
         options: [
              {
                 text: "Lancer de l'ordinateur",
@@ -98,6 +105,7 @@ let chaptersObj = {
         subtitle : "Lancer de l'ordinateur",
         text : "Gamer man prend son courage à deux mains et cours vers l'ours. Il crie très fort et jette son ordinateur sur le crâne de l'ours. L'ours est effrayée par lui et meurt d'une crise cardiaque avant même l'impact.",
         img : "assets/images/bed.jpg",
+        audio : "assets/mp3/vineboom",
         options: [
              {
                 text: "Retour au chemin principal",
@@ -109,6 +117,7 @@ let chaptersObj = {
         subtitle : "Retour au chemin principal",
         text : "Gamer man est surpris de ce qui est arrivé et aussi surpris que son ordinateur est intact. Malgré cela, il est traumatisé par cet évènement qui restera dans sa mémoire à jamais. Il retourne au chemin principal.",
         img : "assets/images/bed.jpg",
+        audio : "assets/mp3/vineboom",
         options: [
              {
                 text: "Arrivée à l'école",
@@ -120,6 +129,7 @@ let chaptersObj = {
         subtitle : "L'ours capture Gamer man",
         text : "Malgré sa bonne idée, l'ours n'est pas aussi stupide qu'il pense. Gamer man se fait capturer par l'ours qui le ramène dans sa tanière pour se nourrir et nourrir ses bébés.",
         img : "assets/images/bed.jpg",
+        audio : "assets/mp3/vineboom",
         options: [
              {
                 text: "Début",
@@ -131,6 +141,7 @@ let chaptersObj = {
         subtitle : "Chemin principal",
         text : "Gamer man choisit le chemin principal et rejoint ses amis d'école primaire qu'il n'a pas vu depuis la fin du primaire.",
         img : "assets/images/bed.jpg",
+        audio : "assets/mp3/vineboom",
         options: [
              {
                 text: "Arrivée à l'école",
@@ -142,6 +153,7 @@ let chaptersObj = {
         subtitle : "Arrivée à l'école",
         text : "Gamer man arrive à l'école et commence enfin son premier jour d'école.",
         img : "assets/images/bed.jpg",
+        audio : "assets/mp3/vineboom",
         options: [
              {
                 text: "Choix entre école et classe",
@@ -153,6 +165,7 @@ let chaptersObj = {
         subtitle : "Choix entre école et classe",
         text : "Les cours commencent bientôt mais il recoit une notification. C'est un évènement qui se passe dans un de ses jeux préférés. Il ne veut pas manquer ca mais l'école est toute aussi importante.",
         img : "assets/images/bed.jpg",
+        audio : "assets/mp3/vineboom",
         options: [
              {
                 text: "Jouer",
@@ -168,6 +181,7 @@ let chaptersObj = {
         subtitle : "Jouer",
         text : "Il s'installe dans une toilette de l'école et active son ordinateur. Il joue à son jeu et s'amuse beaucoup.",
         video : "assets/mp4/gamerman.mp4",
+        audio : "assets/mp3/vineboom",
         options: [
              {
                 text: "Suspension",
@@ -179,6 +193,7 @@ let chaptersObj = {
         subtitle : "Suspension",
         text : "Le directeur de l'école rentre dans la toilette et entend de la musique. Il découvre les manigances de Gamer man et confisque son ordinateur et le suspend pendant l'entiereté de son année scolaire.",
         img : "assets/images/bed.jpg",
+        audio : "assets/mp3/vineboom",
         options: [
              {
                 text: "Début",
@@ -190,6 +205,7 @@ let chaptersObj = {
         subtitle : "Cours",
         text : "Gamer man va à ses cours et passe la journée à attendre la fin des cours pour enfin retourner chez lui et pour participer à l'évènement.",
         img : "assets/images/bed.jpg",
+        audio : "assets/mp3/vineboom",
         options: [
              {
                 text: "Choix de dormir ou de jouer",
@@ -201,6 +217,7 @@ let chaptersObj = {
         subtitle : "Choix de dormir ou de jouer",
         text : "Il est fatigué à cause de sa journée longue, mais il veut absolument jouer à l'évènement. Le choix est dur.",
         img : "assets/images/bed.jpg",
+        audio : "assets/mp3/vineboom",
         options: [
              {
                 text: "Dormir",
@@ -216,6 +233,7 @@ let chaptersObj = {
         subtitle : "Dormir",
         text : "Gamer man sacrifie ses envies pour se reposer. Le lendemain, son père lui dit qu'il pourra avoir la rtx 4090.",
         video : "assets/mp4/jesse.mp4",
+        audio : "assets/mp3/vineboom",
         options: [
              {
                 text: "Début",
@@ -227,6 +245,7 @@ let chaptersObj = {
         subtitle : "Coma",
         text : "Gamer man sacrifie sa santé et sa sanité pour jouer à son jeu jusqu'au lever du soleil. Le lendemain, ses parents le trouve inconscient. Gamer man tombe dans un coma.",
         img : "assets/images/bed.jpg",
+        audio : "assets/mp3/vineboom",
         options: [
              {
                 text: "Début",
@@ -247,8 +266,11 @@ function goToChapter(chapterName) {
     document.querySelector(".Texte").innerHTML = chaptersObj[chapterName]["text"];
     document.querySelector(".photo").src = (chaptersObj[chapterName]["img"]);
     document.querySelector(".boutons").innerHTML=""
+    document.querySelector(".audio").src = (chaptersObj[chapterName]["audio"]);
+
     
-    for(i in chaptersObj[chapterName].options) {
+
+     for(i in chaptersObj[chapterName].options) {
         const btn = document.createElement("button");
         btn.setAttribute("class", "bouton");
         btn.setAttribute("onclick", chaptersObj[chapterName].options[i].action);
