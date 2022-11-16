@@ -255,7 +255,7 @@ function goToChapter(chapterName) {
     document.querySelector(".Image").innerHTML=`<img src="${chaptersObj[chapterName]["img"]}" class="photo">`;
     document.querySelector(".boutons").innerHTML="";
 
-    localStorage.setItem("chaptersObj", chapterName);
+    
     
 
     if(chaptersObj[chapterName]["video"]) {
@@ -274,16 +274,18 @@ function goToChapter(chapterName) {
         btn.appendChild(node)
         const parent = document.querySelector(".boutons");
         parent.appendChild(btn)
+        localStorage.setItem("chaptersObj", chapterName);
+     }
 
 
-        const bouton = document.querySelectorAll('button');
+const bouton = document.querySelectorAll('button');
 const sound = new Audio('assets/mp3/vineboom.mp3')
 for(property of bouton){
     property.addEventListener('click', function() {
         sound.play();
     });
 }
-    }
+    
 
 
 
