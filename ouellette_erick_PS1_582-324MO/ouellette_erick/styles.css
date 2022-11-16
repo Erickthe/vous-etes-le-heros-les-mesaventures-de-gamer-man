@@ -2,12 +2,18 @@ html {
     background-color: #568EA3;
 }
 
-.game {
+body {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
+
+
+
+    
 
 
 .game div {
@@ -60,4 +66,15 @@ html {
     background-color: #F7AF67;
     color: white;
     border: none;
+}
+
+.photo {
+    width: 600px;
+    height: 300px;
+}
+
+
+video {
+    width: 600px;
+    height: 300px;
 }
