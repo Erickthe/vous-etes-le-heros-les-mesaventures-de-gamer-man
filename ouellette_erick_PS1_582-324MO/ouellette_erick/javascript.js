@@ -87,7 +87,7 @@ let chaptersObj = {
     ours_choix : {
         subtitle : "Choix de l'approche face à l'ours",
         text : "Il choisit le raccourci qui lui mène dans une forêt. Tout va bien jusqu'à ce qu'un ours apparait. L'ours a un grand appétit. Gamer man a deux options: lancer son ordinateur sur l'ours pour l'effrayer ou jouer le mort.",
-        img : "assets/images/bed.jpg",
+        img : "assets/images/bearVman.jpg",
         options: [
              {
                 text: "Lancer de l'ordinateur",
@@ -102,7 +102,7 @@ let chaptersObj = {
     attaque : {
         subtitle : "Lancer de l'ordinateur",
         text : "Gamer man prend son courage à deux mains et cours vers l'ours. Il crie très fort et jette son ordinateur sur le crâne de l'ours. L'ours est effrayée par lui et meurt d'une crise cardiaque avant même l'impact.",
-        img : "assets/images/bed.jpg",
+        img : "assets/images/laptop.jpg",
         options: [
              {
                 text: "Retour au chemin principal",
@@ -113,7 +113,7 @@ let chaptersObj = {
     retour_chemin : {
         subtitle : "Retour au chemin principal",
         text : "Gamer man est surpris de ce qui est arrivé et aussi surpris que son ordinateur est intact. Malgré cela, il est traumatisé par cet évènement qui restera dans sa mémoire à jamais. Il retourne au chemin principal.",
-        img : "assets/images/bed.jpg",
+        img : "assets/images/retour.jpg",
         options: [
              {
                 text: "Arrivée à l'école",
@@ -124,7 +124,7 @@ let chaptersObj = {
     ours_capture : {
         subtitle : "L'ours capture Gamer man",
         text : "Malgré sa bonne idée, l'ours n'est pas aussi stupide qu'il pense. Gamer man se fait capturer par l'ours qui le ramène dans sa tanière pour se nourrir et nourrir ses bébés.",
-        img : "assets/images/bed.jpg",
+        img : "assets/images/game_over.jpg",
         options: [
              {
                 text: "Début",
@@ -135,7 +135,7 @@ let chaptersObj = {
     chemin_principal : {
         subtitle : "Chemin principal",
         text : "Gamer man choisit le chemin principal et rejoint ses amis d'école primaire qu'il n'a pas vu depuis la fin du primaire.",
-        img : "assets/images/bed.jpg",
+        img : "assets/images/chemin_princip.jpg",
         options: [
              {
                 text: "Arrivée à l'école",
@@ -146,7 +146,7 @@ let chaptersObj = {
     arrive_ecole : {
         subtitle : "Arrivée à l'école",
         text : "Gamer man arrive à l'école et commence enfin son premier jour d'école.",
-        img : "assets/images/bed.jpg",
+        img : "assets/images/school.jpg",
         options: [
              {
                 text: "Choix entre école et classe",
@@ -157,7 +157,7 @@ let chaptersObj = {
     jouer_ecole_choix : {
         subtitle : "Choix entre école et classe",
         text : "Les cours commencent bientôt mais il recoit une notification. C'est un évènement qui se passe dans un de ses jeux préférés. Il ne veut pas manquer ca mais l'école est toute aussi importante.",
-        img : "assets/images/bed.jpg",
+        img : "assets/images/choix.jpg",
         options: [
              {
                 text: "Jouer",
@@ -184,7 +184,7 @@ let chaptersObj = {
     suspension : {
         subtitle : "Suspension",
         text : "Le directeur de l'école rentre dans la toilette et entend de la musique. Il découvre les manigances de Gamer man et confisque son ordinateur et le suspend pendant l'entiereté de son année scolaire.",
-        img : "assets/images/bed.jpg",
+        img : "assets/images/suspension.jpg",
         options: [
              {
                 text: "Début",
@@ -195,7 +195,7 @@ let chaptersObj = {
     cours : {
         subtitle : "Cours",
         text : "Gamer man va à ses cours et passe la journée à attendre la fin des cours pour enfin retourner chez lui et pour participer à l'évènement.",
-        img : "assets/images/bed.jpg",
+        img : "assets/images/cours.jpg",
         options: [
              {
                 text: "Choix de dormir ou de jouer",
@@ -207,6 +207,7 @@ let chaptersObj = {
         subtitle : "Choix de dormir ou de jouer",
         text : "Il est fatigué à cause de sa journée longue, mais il veut absolument jouer à l'évènement. Le choix est dur.",
         img : "assets/images/bed.jpg",
+        video : "assets/mp4/kermit.mp4",
         options: [
              {
                 text: "Dormir",
@@ -233,7 +234,7 @@ let chaptersObj = {
     coma : {
         subtitle : "Coma",
         text : "Gamer man sacrifie sa santé et sa sanité pour jouer à son jeu jusqu'au lever du soleil. Le lendemain, ses parents le trouve inconscient. Gamer man tombe dans un coma.",
-        img : "assets/images/bed.jpg",
+        img : "assets/images/game_over.jpg",
         options: [
              {
                 text: "Début",
