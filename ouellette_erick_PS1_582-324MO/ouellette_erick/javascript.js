@@ -246,6 +246,8 @@ let chaptersObj = {
 
 
 function goToChapter(chapterName) {
+    localStorage.setItem("chapter", chapterName);
+    localStorage.getItem("chapter")
     console.log(chaptersObj[chapterName]["subtitle"]);
     console.log(chaptersObj[chapterName]["text"]);
     console.log(chaptersObj[chapterName]["img"]);
@@ -284,23 +286,18 @@ for(property of bouton){
     property.addEventListener('click', function() {
         sound.play();
     });
-}
-    
-
-
-
-
-    
+}    
 };
 
 
 
-goToChapter("debut"); 
+goToChapter("debut")
 
 function useCard(){
      card = true;
      goToChapter("trajet_choix");
      localStorage.setItem("card", card);
+     localStorage.getItem("card")
      
 };
 
@@ -311,6 +308,7 @@ function cardcheck(){
         goToChapter("chemin_choix");
     }
     localStorage.setItem("card", card);
+    localStorage.getItem("card")
 };
 
 function cardnope() {
@@ -318,4 +316,10 @@ function cardnope() {
     goToChapter("chemin_choix");
 }
 
+
+
 let card = false;
+
+
+
+
