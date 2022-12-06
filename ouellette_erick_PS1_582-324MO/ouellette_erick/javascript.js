@@ -248,7 +248,7 @@ let chaptersObj = {
 
 function goToChapter(chapterName) {
     localStorage.setItem("chapter", chapterName);
-    localStorage.getItem("chapter")
+    localStorage.getItem("chapter");
     console.log(chaptersObj[chapterName]["subtitle"]);
     console.log(chaptersObj[chapterName]["text"]);
     console.log(chaptersObj[chapterName]["img"]);
