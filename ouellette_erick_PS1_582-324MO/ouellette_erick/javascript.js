@@ -247,8 +247,6 @@ let chaptersObj = {
 
 
 function goToChapter(chapterName) {
-    localStorage.setItem("chapter", chapterName);
-    localStorage.getItem("chapter")
     console.log(chaptersObj[chapterName]["subtitle"]);
     console.log(chaptersObj[chapterName]["text"]);
     console.log(chaptersObj[chapterName]["img"]);
@@ -258,6 +256,8 @@ function goToChapter(chapterName) {
     document.querySelector(".Image").innerHTML=`<img src="${chaptersObj[chapterName]["img"]}" class="photo">`;
     document.querySelector(".boutons").innerHTML="";
 
+
+    localStorage.setItem("chapter", chapterName);
     
     
 
@@ -297,9 +297,7 @@ goToChapter("debut")
 function useCard(){
      card = true;
      goToChapter("trajet_choix");
-     localStorage.setItem("card", card);
-     localStorage.getItem("card")
-     
+     localStorage.setItem("usecard", true);   
 };
 
 function cardcheck(){
@@ -308,8 +306,6 @@ function cardcheck(){
     } else {
         goToChapter("chemin_choix");
     }
-    localStorage.setItem("card", card);
-    localStorage.getItem("card")
 };
 
 function cardnope() {
@@ -318,9 +314,41 @@ function cardnope() {
 }
 
 
+let savedGame = localStorage.getItem("chapter");
+if(savedGame==null){
+    goToChapter("debut");
+    console.log("debut");
+} else {
+    goToChapter(savedGame);
+    console.log(savedGame);
+}
+
 
 let card = false;
 
 
+function reset() {
+    useCard = false;
+    cardcheck = false;
+    cardnope = false;
+    localStorage.setItem("useCard", "false");
+    localStorage.setItem("cardcheck", "false");
+    localStorage.setItem("cardnope", "false");
+    goToChapter("debut");
+    console.log("reset");
+}
 
+
+
+let resetbtn = document.createElement('button');
+resetbtn.addEventListener("click", function() {
+    useCard = false;
+    cardcheck = false;
+    cardnope = false;
+    localStorage.setItem("useCard", "false");
+    localStorage.setItem("cardcheck", "false");
+    localStorage.setItem("cardnope", "false");
+    goToChapter("debut");
+    console.log("reset");
+});
 
