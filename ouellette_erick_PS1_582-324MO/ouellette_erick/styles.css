@@ -98,5 +98,6 @@ body.coma .game div{
 
 
 body.dormir .game div {
-    background-image: url("hello.jpg");
+    background-color: green;
+    color: black;
 }
