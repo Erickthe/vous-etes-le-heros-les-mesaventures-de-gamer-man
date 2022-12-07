@@ -309,11 +309,13 @@ function cardcheck(){
     } else {
         goToChapter("chemin_choix");
     }
+    localStorage.setItem("cardcheck", true);
 };
 
 function cardnope() {
     card = false
     goToChapter("chemin_choix");
+    localStorage.setItem("cardnope", true);
 }
 
 
@@ -334,6 +336,8 @@ let card = false;
 
 
 
+
+
 let resetBtn = document.querySelector('.btnreset');
 resetBtn.addEventListener("click", function() {
     useCard = false;
@@ -345,6 +349,33 @@ resetBtn.addEventListener("click", function() {
     goToChapter("debut");
     console.log("reset");
 });
+
+
+function refresh() {
+    goToChapter(localStorage.getItem("chapter"));
+    localStorage.getItem("useCard");
+    localStorage.getItem("cardcheck");
+    localStorage.getItem("cardnope");
+  
+    if(localStorage.getItem("cardcheck") == "true") {
+      cardcheck = true;
+    } else {
+      cardcheck = false;
+    }
+  
+    if(localStorage.getItem("useCard") == "true") {
+      useCard = true;
+    } else {
+      useCard = false;
+    }
+  
+    if(localStorage.getItem("cardnope") == "true") {
+      cardnope = true;
+    } else {
+      cardnope = false;
+    }
+  }
+  
 
 let btnmute = document.querySelector('.mutebtn');
 btnmute.addEventListener("change", function(){
