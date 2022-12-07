@@ -259,6 +259,9 @@ function goToChapter(chapterName) {
 
     localStorage.setItem("chapter", chapterName);
     
+
+    document.body.className = "";
+    document.body.classList.add(chapterName);
     
 
     if(chaptersObj[chapterName]["video"]) {
@@ -281,8 +284,8 @@ function goToChapter(chapterName) {
      }
 
 
-const bouton = document.querySelectorAll('button');
-const sound = new Audio('assets/mp3/vineboom.mp3')
+let bouton = document.querySelectorAll('button');
+let sound = new Audio('assets/mp3/vineboom.mp3')
 for(property of bouton){
     property.addEventListener('click', function() {
         sound.play();
@@ -327,21 +330,12 @@ if(savedGame==null){
 let card = false;
 
 
-function reset() {
-    useCard = false;
-    cardcheck = false;
-    cardnope = false;
-    localStorage.setItem("useCard", "false");
-    localStorage.setItem("cardcheck", "false");
-    localStorage.setItem("cardnope", "false");
-    goToChapter("debut");
-    console.log("reset");
-}
 
 
 
-let resetbtn = document.createElement('button');
-resetbtn.addEventListener("click", function() {
+
+let resetBtn = document.querySelector('.btnreset');
+resetBtn.addEventListener("click", function() {
     useCard = false;
     cardcheck = false;
     cardnope = false;
@@ -351,4 +345,15 @@ resetbtn.addEventListener("click", function() {
     goToChapter("debut");
     console.log("reset");
 });
+
+let btnmute = document.querySelector('.mutebtn');
+btnmute.addEventListener("change", function(){
+    if(choice.checked) {
+        sound.volume = 0;
+    } else {
+        console.log("décoché");
+        sound.volume = 0;
+    }
+});
+
 

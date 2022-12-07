@@ -3,19 +3,19 @@ html {
 }
 
 body {
-    width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    
+    
 }
 
 .game div {
     background-color: #68C3D4;
     width: 600px;
-    min-height: 100px;  
-    
+    min-height: 50px;
+    display: flex;
 }
 
 .Titre {
@@ -25,6 +25,7 @@ body {
     font-size: 30px;
     color: #826251;
     font-family: 'Roboto', sans-serif;
+     
 }
 
 .Texte {
@@ -32,6 +33,7 @@ body {
     color: #826251;
     text-align: center;
     font-size: 20px;
+    
 }
 
 .boutons {
@@ -43,6 +45,7 @@ body {
     align-items: center;
     background-color: #F7B97C;
     color: white;
+   
 }
 
 .Bouton {
@@ -72,4 +75,17 @@ body {
 video {
     width: 600px;
     height: 300px;
+}
+
+.btnreset {
+    width: 111px;
+    height: 20px;
+}
+
+
+.son {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
 }
