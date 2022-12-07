@@ -89,3 +89,14 @@ video {
     justify-content: center;
     align-items: flex-start;
 }
+
+
+body.coma .game div{
+    background-color: red;
+    color: black;
+}
+
+
+body.dormir .game div {
+    background-image: url("hello.jpg");
+}
