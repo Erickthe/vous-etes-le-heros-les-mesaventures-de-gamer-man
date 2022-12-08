@@ -291,7 +291,7 @@ for(property of bouton){
         sound.play();
     });
 }    
-};
+};    
 
 
 
