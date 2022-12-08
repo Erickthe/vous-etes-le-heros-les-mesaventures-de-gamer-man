@@ -1,0 +1,103 @@
+html {
+    background-color: #568EA3;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.game div {
+    background-color: #68C3D4;
+    width: 600px;
+    min-height: 50px;
+    display: flex;
+}
+
+.Titre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #826251;
+    font-family: 'Roboto', sans-serif;
+     
+}
+
+.Texte {
+    font-family: 'Roboto', sans-serif;
+    color: #826251;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.boutons {
+    width: 10px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #F7B97C;
+    color: white;
+   
+}
+
+.Bouton {
+    background-color: #F7AF67;
+    color: white;
+    border: none;
+}
+
+.Bouton2 {
+    background-color: #F7AF67;
+    color: white;
+    border: none;
+}
+
+.Bouton3 {
+    background-color: #F7AF67;
+    color: white;
+    border: none;
+}
+
+.photo {
+    width: 600px;
+    height: 300px;
+}
+
+
+video {
+    width: 600px;
+    height: 300px;
+}
+
+.btnreset {
+    width: 111px;
+    height: 20px;
+}
+
+
+.son {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+body.coma .game div{
+    background-color: red;
+    color: black;
+}
+
+
+body.dormir .game div {
+    background-color: green;
+    color: black;
+}
